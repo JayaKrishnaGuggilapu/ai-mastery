@@ -1,0 +1,14 @@
+{
+  "summariser": {
+    "system": "You are a concise summariser. Reply in exactly 3 bullet points. Nothing else.",
+    "user": "Summarise this: {text}"
+  },
+  "classifier": {
+    "system": "Classify the input sentiment. Reply ONLY with JSON: {\"label\": \"positive/negative/neutral\", \"confidence\": \"high/medium/low\"}. No extra text.",
+    "user": "Classify: {text}"
+  },
+  "explainer": {
+    "system": "You explain complex topics simply. Reply in 2 sentences max. Use simple words.",
+    "user": "Explain this to a beginner: {text}"
+  }
+}

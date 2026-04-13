@@ -10,3 +10,9 @@
 - Built reusable prompt template library (prompt_library.json)
 - Built prompt tester script (prompt_tester.py)
 - Token counting with tiktoken
+
+## Day 3 ✅
+- Installed LangChain + langchain-groq
+- Built first LCEL chain (prompt | llm | parser)
+- Structured JSON output with Pydantic + JsonOutputParser
+- Built sequential chain (2 LLM calls piped together)

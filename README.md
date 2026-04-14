@@ -16,3 +16,9 @@
 - Built first LCEL chain (prompt | llm | parser)
 - Structured JSON output with Pydantic + JsonOutputParser
 - Built sequential chain (2 LLM calls piped together)
+
+## Day 4 ✅
+- Installed sentence-transformers + ChromaDB
+- Converted text into vector embeddings (384 dimensions)
+- Built local ChromaDB collection with 8 documents
+- Built semantic search — finds meaning, not just keywords
